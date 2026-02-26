@@ -20,10 +20,12 @@ export const colors = {
 	borderLight: "#F3F4F6",
 } as const;
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export const logoMap: Record<Locale, { default: string; white: string }> = {
-	ko: { default: "/images/logo-ko.png", white: "/images/logo-ko-white.png" },
-	ja: { default: "/images/logo-ja.png", white: "/images/logo-ja-white.png" },
-	en: { default: "/images/logo-en.png", white: "/images/logo-en-white.png" },
+	ko: { default: `${basePath}/images/logo-ko.png`, white: `${basePath}/images/logo-ko-white.png` },
+	ja: { default: `${basePath}/images/logo-ja.png`, white: `${basePath}/images/logo-ja-white.png` },
+	en: { default: `${basePath}/images/logo-en.png`, white: `${basePath}/images/logo-en-white.png` },
 };
 
 export const localeTypography: Record<

@@ -90,7 +90,7 @@ export async function generateMetadata({
       ),
     },
     icons: {
-      icon: '/images/logo.svg',
+      icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.svg`,
     },
     openGraph: {
       title: dict.metadata.title,
