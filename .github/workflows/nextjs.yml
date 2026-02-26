@@ -20,6 +20,8 @@ jobs:
     defaults:
       run:
         working-directory: hanil
+    env:
+      NEXT_PUBLIC_BASE_PATH: /hanilip
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -44,6 +46,29 @@ jobs:
 
       - name: Build with Next.js
         run: pnpm next build
+
+      - name: Create root redirect
+        run: |
+          cat > out/index.html << 'HEREDOC'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <script>
+              (function() {
+                var lang = (navigator.language || '').toLowerCase();
+                var base = '/hanilip';
+                var dest = base + '/en';
+                if (lang.startsWith('ko')) dest = base + '/ko';
+                else if (lang.startsWith('ja')) dest = base + '/ja';
+                window.location.replace(dest);
+              })();
+            </script>
+            <meta http-equiv="refresh" content="0;url=/hanilip/ko">
+          </head>
+          <body></body>
+          </html>
+          HEREDOC
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
