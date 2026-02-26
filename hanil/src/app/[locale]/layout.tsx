@@ -76,11 +76,16 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://hanilip.com';
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+  const titleSuffix = dict.metadata.titleEnglish
+    ? `${dict.metadata.title} | ${dict.metadata.titleEnglish} | ${dict.metadata.ipAttorneys}`
+    : `${dict.metadata.title} | ${dict.metadata.ipAttorneys}`;
 
   return {
     title: {
-      default: dict.metadata.title,
-      template: `%s | ${dict.metadata.title}`,
+      default: titleSuffix,
+      template: `%s - ${titleSuffix}`,
     },
     description: dict.metadata.description,
     alternates: {
@@ -90,11 +95,12 @@ export async function generateMetadata({
       ),
     },
     icons: {
-      icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.svg`,
+      icon: `${basePath}/images/logo-white.svg`,
     },
     openGraph: {
       title: dict.metadata.title,
       description: dict.metadata.description,
+      images: [`${basePath}/images/logo.svg`],
       locale: locale,
       type: 'website',
     },
