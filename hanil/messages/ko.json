@@ -1,0 +1,90 @@
+{
+	"metadata": {
+		"title": "한일특허법연구소",
+		"description": "한국과 일본의 지식재산 전문 연구기관 — IP 전략 수립, 특허 동향 분석, 기업 자문"
+	},
+	"banner": {
+		"contactUs": "문의하기"
+	},
+	"nav": {
+		"home": "홈",
+		"about": "연구소소개",
+		"research": "연구활동",
+		"corporateTrends": "기업관련 동향",
+		"patentTrends": "특허관련 동향",
+		"contact": "문의"
+	},
+	"hero": {
+		"title": "한일 지식재산의\n미래를 선도합니다",
+		"subtitle": "한국과 일본의 지식재산 분야를 잇는 전문 연구기관으로서, 기업의 IP 전략 수립과 특허 동향 분석을 지원합니다.",
+		"cta": "자세히 보기",
+		"ctaSecondary": "문의하기"
+	},
+	"stats": {
+		"years": { "value": "20+", "label": "연구 경력" },
+		"publications": { "value": "100+", "label": "연구 보고서" },
+		"patents": { "value": "500+", "label": "특허 분석 건수" }
+	},
+	"services": {
+		"title": "주요 서비스",
+		"subtitle": "전문적인 지식재산 연구 서비스를 제공합니다",
+		"items": [
+			{
+				"title": "연구소소개",
+				"description": "한일 지식재산 분야의 전문 연구진이 이끄는 연구기관",
+				"href": "/about"
+			},
+			{
+				"title": "연구활동",
+				"description": "한일 양국의 지식재산 정책 및 제도 비교 연구",
+				"href": "/research"
+			},
+			{
+				"title": "기업관련 동향",
+				"description": "주요 기업의 IP 전략 및 시장 동향 분석",
+				"href": "/corporate-trends"
+			},
+			{
+				"title": "특허관련 동향",
+				"description": "한일 양국의 최신 특허 출원 및 심사 동향",
+				"href": "/patent-trends"
+			}
+		]
+	},
+	"featured": {
+		"title": "최신 소식",
+		"subtitle": "한일 지식재산 분야의 최신 연구 및 동향",
+		"viewMore": "자세히 보기",
+		"items": [
+			{
+				"date": "2026.02.20",
+				"category": "연구보고서",
+				"title": "2026년 한일 특허 출원 동향 분석",
+				"excerpt": "2025년 한국과 일본의 특허 출원 현황을 비교 분석하고, 주요 기술 분야별 동향을 정리하였습니다."
+			},
+			{
+				"date": "2026.02.15",
+				"category": "기업동향",
+				"title": "일본 주요 기업의 AI 특허 전략",
+				"excerpt": "일본 주요 기업들의 인공지능 관련 특허 출원 전략과 포트폴리오 분석 결과를 발표합니다."
+			},
+			{
+				"date": "2026.02.10",
+				"category": "정책동향",
+				"title": "한일 지식재산 협력 새 프레임워크",
+				"excerpt": "한일 양국 정부의 지식재산 분야 새로운 협력 프레임워크에 대한 분석 보고서입니다."
+			}
+		]
+	},
+	"footer": {
+		"description": "한일특허법연구소는 한국과 일본의 지식재산 분야를 전문적으로 연구하는 기관입니다.",
+		"quickLinks": "바로가기",
+		"contactInfo": "연락처",
+		"address": "서울특별시 강남구",
+		"email": "info@hanilip.com",
+		"phone": "+82-2-XXX-XXXX",
+		"copyright": "© 2026 한일특허법연구소. All Rights Reserved.",
+		"privacy": "개인정보처리방침",
+		"terms": "이용약관"
+	}
+}

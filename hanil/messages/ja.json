@@ -1,0 +1,90 @@
+{
+	"metadata": {
+		"title": "日韓特許法研究所",
+		"description": "韓国と日本の知的財産専門研究機関 — IP戦略策定、特許動向分析、企業アドバイザリー"
+	},
+	"banner": {
+		"contactUs": "お問い合わせ"
+	},
+	"nav": {
+		"home": "ホーム",
+		"about": "研究所紹介",
+		"research": "研究活動",
+		"corporateTrends": "企業関連動向",
+		"patentTrends": "特許関連動向",
+		"contact": "お問い合わせ"
+	},
+	"hero": {
+		"title": "日韓知的財産の\n未来をリードします",
+		"subtitle": "韓国と日本の知的財産分野をつなぐ専門研究機関として、企業のIP戦略策定と特許動向分析を支援します。",
+		"cta": "詳しく見る",
+		"ctaSecondary": "お問い合わせ"
+	},
+	"stats": {
+		"years": { "value": "20+", "label": "研究歴" },
+		"publications": { "value": "100+", "label": "研究レポート" },
+		"patents": { "value": "500+", "label": "特許分析件数" }
+	},
+	"services": {
+		"title": "主要サービス",
+		"subtitle": "専門的な知的財産研究サービスを提供します",
+		"items": [
+			{
+				"title": "研究所紹介",
+				"description": "日韓知的財産分野の専門研究チームが率いる研究機関",
+				"href": "/about"
+			},
+			{
+				"title": "研究活動",
+				"description": "日韓両国の知的財産政策及び制度の比較研究",
+				"href": "/research"
+			},
+			{
+				"title": "企業関連動向",
+				"description": "主要企業のIP戦略及び市場動向分析",
+				"href": "/corporate-trends"
+			},
+			{
+				"title": "特許関連動向",
+				"description": "日韓両国の最新特許出願及び審査動向",
+				"href": "/patent-trends"
+			}
+		]
+	},
+	"featured": {
+		"title": "最新ニュース",
+		"subtitle": "日韓知的財産分野の最新研究及び動向",
+		"viewMore": "詳しく見る",
+		"items": [
+			{
+				"date": "2026.02.20",
+				"category": "研究レポート",
+				"title": "2026年日韓特許出願動向分析",
+				"excerpt": "2025年の韓国と日本の特許出願現況を比較分析し、主要技術分野別の動向をまとめました。"
+			},
+			{
+				"date": "2026.02.15",
+				"category": "企業動向",
+				"title": "日本主要企業のAI特許戦略",
+				"excerpt": "日本の主要企業の人工知能関連特許出願戦略とポートフォリオ分析結果を発表します。"
+			},
+			{
+				"date": "2026.02.10",
+				"category": "政策動向",
+				"title": "日韓知的財産協力の新フレームワーク",
+				"excerpt": "日韓両国政府の知的財産分野における新しい協力フレームワークに関する分析レポートです。"
+			}
+		]
+	},
+	"footer": {
+		"description": "日韓特許法研究所は韓国と日本の知的財産分野を専門的に研究する機関です。",
+		"quickLinks": "クイックリンク",
+		"contactInfo": "お問い合わせ先",
+		"address": "ソウル特別市江南区",
+		"email": "info@hanilip.com",
+		"phone": "+82-2-XXX-XXXX",
+		"copyright": "© 2026 日韓特許法研究所. All Rights Reserved.",
+		"privacy": "プライバシーポリシー",
+		"terms": "利用規約"
+	}
+}

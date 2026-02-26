@@ -1,0 +1,42 @@
+---
+alwaysApply: true
+---
+
+# Hanil(Korea-Japan) IP Research Institute - Global Development Rules
+
+You are an expert Fullstack Engineer and Web Designer specializing in high-trust professional service websites (Legal/Patent firms). You prioritize reliability, SEO (E-E-A-T), and maintainability.
+
+## 1. Tech Stack & Architecture
+
+- **Framework:** Next.js (App Router)
+- **Pattern:** MVC (Model-View-Controller)
+  - **Models:** Use Zod schemas to define IP data, Research, and Trends.
+  - **Views:** React Server Components (RSC) for performance; Client Components only when necessary.
+  - **Controllers/Actions:** Use Next.js Server Actions to handle form submissions and content updates.
+- **Styling:** Tailwind CSS (Focus on "Legal Professional" aesthetic: Serif fonts for headings, deep blues/slates, ample white space).
+
+## 2. Localization Strategy (/ko, /ja, /en)
+
+- **Routing:** Use Middleware-based sub-path routing. Every route must be prefixed by `/[locale]`.
+- **Dictionaries:** Store translations in `dictionaries/` as JSON files.
+- **Constraint:** Never hardcode strings. Always use a `getDictionary(locale)` helper.
+- **SEO:** Ensure `hreflang` tags are dynamically generated for each language version.
+
+## 3. SEO & E-E-A-T (Experience, Expertise, Authoritativeness, Trust)
+
+- **Metadata:** Every page must have a dynamic `generateMetadata` function.
+- **JSON-LD:** Implement `Attorney` or `GovernmentService` Schema.org markup on the main page.
+- **Content Structure:** - Use semantic HTML (`<article>`, `<section>`, `<h1>`-`<h6>`).
+- **Performance:** Maintain Core Web Vitals (LCP, FID, CLS) to ensure "Reliability."
+
+## 4. UI/UX Principles (Legal Firm Standard)
+
+- **Reliability:** Use Loading States (Skeletons) and Error Boundaries. No flickering.
+
+## 6. Language-Specific Formatting
+
+Don't just translate; localizing keywords is key.
+
+- **KO:** Use `word-break: keep-all` for natural Korean line breaks.
+- **JA:** Ensure font-family prioritizes legible Japanese sans-serif (e.g., Noto Sans JP).
+- **EN:** Maintain professional, formal legal terminology.

@@ -1,0 +1,90 @@
+{
+	"metadata": {
+		"title": "Korea-Japan IP Research Institute",
+		"description": "Specialized Research Institute for Korea-Japan Intellectual Property — IP Strategy, Patent Analysis, Corporate Advisory"
+	},
+	"banner": {
+		"contactUs": "Contact Us"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About Us",
+		"research": "Research",
+		"corporateTrends": "Corporate Trends",
+		"patentTrends": "Patent Trends",
+		"contact": "Contact"
+	},
+	"hero": {
+		"title": "Leading the Future of\nKorea-Japan IP",
+		"subtitle": "As a specialized research institute bridging intellectual property between Korea and Japan, we support corporate IP strategy and patent trend analysis.",
+		"cta": "Learn More",
+		"ctaSecondary": "Contact Us"
+	},
+	"stats": {
+		"years": { "value": "20+", "label": "Years of Research" },
+		"publications": { "value": "100+", "label": "Research Reports" },
+		"patents": { "value": "500+", "label": "Patents Analyzed" }
+	},
+	"services": {
+		"title": "Our Services",
+		"subtitle": "Professional intellectual property research services",
+		"items": [
+			{
+				"title": "About the Institute",
+				"description": "A research institution led by expert researchers in Korea-Japan intellectual property",
+				"href": "/about"
+			},
+			{
+				"title": "Research Activities",
+				"description": "Comparative research on IP policies and systems between Korea and Japan",
+				"href": "/research"
+			},
+			{
+				"title": "Corporate Trends",
+				"description": "Analysis of major corporate IP strategies and market trends",
+				"href": "/corporate-trends"
+			},
+			{
+				"title": "Patent Trends",
+				"description": "Latest patent filing and examination trends in Korea and Japan",
+				"href": "/patent-trends"
+			}
+		]
+	},
+	"featured": {
+		"title": "Latest News",
+		"subtitle": "Recent research and trends in Korea-Japan intellectual property",
+		"viewMore": "View More",
+		"items": [
+			{
+				"date": "Feb 20, 2026",
+				"category": "Research Report",
+				"title": "2026 Korea-Japan Patent Filing Trends Analysis",
+				"excerpt": "A comparative analysis of patent filing trends in Korea and Japan in 2025, with insights into key technology sectors."
+			},
+			{
+				"date": "Feb 15, 2026",
+				"category": "Corporate Trends",
+				"title": "AI Patent Strategies of Major Japanese Companies",
+				"excerpt": "Analysis of artificial intelligence patent filing strategies and portfolio developments among leading Japanese corporations."
+			},
+			{
+				"date": "Feb 10, 2026",
+				"category": "Policy Trends",
+				"title": "New Korea-Japan IP Cooperation Framework",
+				"excerpt": "An analytical report on the new intellectual property cooperation framework between the Korean and Japanese governments."
+			}
+		]
+	},
+	"footer": {
+		"description": "Korea-Japan IP Research Institute is a specialized institution for researching intellectual property between Korea and Japan.",
+		"quickLinks": "Quick Links",
+		"contactInfo": "Contact Information",
+		"address": "Gangnam-gu, Seoul, South Korea",
+		"email": "info@hanilip.com",
+		"phone": "+82-2-XXX-XXXX",
+		"copyright": "© 2026 Korea-Japan IP Research Institute. All Rights Reserved.",
+		"privacy": "Privacy Policy",
+		"terms": "Terms of Use"
+	}
+}
