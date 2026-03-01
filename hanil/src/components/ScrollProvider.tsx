@@ -5,7 +5,6 @@ import {
   useContext,
   useEffect,
   useState,
-  useCallback,
   type ReactNode,
 } from 'react';
 
@@ -22,17 +21,24 @@ export function useScrollSection() {
 export default function ScrollProvider({ children }: { children: ReactNode }) {
   const [isHero, setIsHero] = useState(true);
 
-  const handleScroll = useCallback(() => {
-    const scrollY = window.scrollY;
-    const heroHeight = window.innerHeight * 0.5;
-    setIsHero(scrollY < heroHeight);
-  }, []);
-
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [handleScroll]);
+    const banner = document.querySelector('[data-page-banner]');
+    if (!banner) {
+      setIsHero(false);
+      return;
+    }
+
+    const header = document.querySelector('header');
+    const headerHeight = header?.offsetHeight ?? 80;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsHero(entry.isIntersecting),
+      { threshold: 0, rootMargin: `-${headerHeight}px 0px 0px 0px` },
+    );
+
+    observer.observe(banner);
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <ScrollContext.Provider value={{ isHero }}>

@@ -78,6 +78,31 @@
 			}
 		]
 	},
+	"contact": {
+		"pageTitle": "お問い合わせ",
+		"pageSubtitle": "ご質問やIPコンサルティングのご要望がございましたら、お気軽にご連絡ください。",
+		"firstName": "名",
+		"lastName": "姓",
+		"email": "メールアドレス",
+		"phone": "電話番号",
+		"companyName": "会社名",
+		"companyWebsite": "会社ウェブサイト",
+		"stateRegion": "都道府県/地域",
+		"country": "国",
+		"message": "お問い合わせ内容",
+		"messagePlaceholder": "お問い合わせ内容をご記入ください...",
+		"pleaseSelect": "選択してください",
+		"required": "必須",
+		"submit": "送信する",
+		"sending": "送信中...",
+		"successTitle": "お問い合わせありがとうございます",
+		"successMessage": "メッセージを受け付けました。1〜2営業日以内にご返信いたします。",
+		"errorMessage": "エラーが発生しました。もう一度お試しください。",
+		"officeTitle": "アクセス",
+		"confirmTitle": "入力内容の確認",
+		"confirmSubmit": "確認して送信",
+		"confirmEdit": "戻って修正"
+	},
 	"footer": {
 		"description": "日韓特許法研究所は韓国と日本の知的財産分野を専門的に研究する機関です。",
 		"quickLinks": "クイックリンク",

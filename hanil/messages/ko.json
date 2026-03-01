@@ -78,6 +78,31 @@
 			}
 		]
 	},
+	"contact": {
+		"pageTitle": "문의하기",
+		"pageSubtitle": "질문이 있으시거나 IP 컨설팅이 필요하시면 연락해 주세요.",
+		"firstName": "이름",
+		"lastName": "성",
+		"email": "이메일",
+		"phone": "전화번호",
+		"companyName": "회사명",
+		"companyWebsite": "회사 웹사이트",
+		"stateRegion": "시/도/지역",
+		"country": "국가",
+		"message": "문의 내용",
+		"messagePlaceholder": "문의 내용을 입력해 주세요...",
+		"pleaseSelect": "선택해 주세요",
+		"required": "필수",
+		"submit": "문의하기",
+		"sending": "전송 중...",
+		"successTitle": "문의가 접수되었습니다",
+		"successMessage": "메시지가 접수되었으며 1~2 영업일 내에 답변드리겠습니다.",
+		"errorMessage": "오류가 발생했습니다. 다시 시도해 주세요.",
+		"officeTitle": "오시는 길",
+		"confirmTitle": "입력 정보 확인",
+		"confirmSubmit": "확인 및 제출",
+		"confirmEdit": "돌아가서 수정"
+	},
 	"footer": {
 		"description": "한일특허법연구소는 한국과 일본의 지식재산 분야를 전문적으로 연구하는 기관입니다.",
 		"quickLinks": "바로가기",

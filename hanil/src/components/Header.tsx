@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import type { Locale } from "@/lib/i18n-config";
 import { locales, localeNames } from "@/lib/i18n-config";
 import { logoMap } from "@/lib/design-tokens";
@@ -24,6 +25,8 @@ export default function Header({
 	const { isHero } = useScrollSection();
 	const [drawerOpen, setDrawerOpen] = useState(false);
 	const otherLocales = locales.filter((l) => l !== locale);
+	const pathname = usePathname();
+	const pathWithoutLocale = pathname.replace(/^\/[^/]+/, "");
 
 	return (
 		<>
@@ -47,7 +50,7 @@ export default function Header({
 							{otherLocales.map((l) => (
 								<Link
 									key={l}
-									href={`/${l}`}
+									href={`/${l}${pathWithoutLocale}`}
 									className="transition-colors hover:text-accent"
 								>
 									{localeNames[l]}
@@ -197,7 +200,7 @@ export default function Header({
 						{otherLocales.map((l) => (
 							<Link
 								key={l}
-								href={`/${l}`}
+								href={`/${l}${pathWithoutLocale}`}
 								onClick={() => setDrawerOpen(false)}
 								className="text-sm font-semibold text-cream/40 transition-colors hover:text-accent"
 							>

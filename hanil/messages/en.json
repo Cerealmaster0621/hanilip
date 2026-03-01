@@ -78,6 +78,31 @@
 			}
 		]
 	},
+	"contact": {
+		"pageTitle": "Contact Us",
+		"pageSubtitle": "Have a question or need IP consultation? We'd love to hear from you.",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"email": "Email",
+		"phone": "Phone Number",
+		"companyName": "Company Name",
+		"companyWebsite": "Company Website",
+		"stateRegion": "State/Province/Region",
+		"country": "Country",
+		"message": "Message",
+		"messagePlaceholder": "Tell us about your inquiry...",
+		"pleaseSelect": "Please Select",
+		"required": "required",
+		"submit": "Submit Inquiry",
+		"sending": "Sending...",
+		"successTitle": "Thank you for your inquiry",
+		"successMessage": "We have received your message and will respond within 1–2 business days.",
+		"errorMessage": "Something went wrong. Please try again.",
+		"officeTitle": "Our Office",
+		"confirmTitle": "Review Your Information",
+		"confirmSubmit": "Confirm & Submit",
+		"confirmEdit": "Go Back & Edit"
+	},
 	"footer": {
 		"description": "Korea-Japan IP Research Institute is a specialized institution for researching intellectual property between Korea and Japan.",
 		"quickLinks": "Quick Links",

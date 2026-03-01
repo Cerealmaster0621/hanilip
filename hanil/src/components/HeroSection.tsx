@@ -12,7 +12,7 @@ export default function HeroSection({
 	dict: Dictionary;
 }) {
 	return (
-		<section className="relative min-h-dvh overflow-hidden bg-primary">
+		<section data-page-banner className="relative min-h-dvh overflow-hidden bg-primary">
 			<div className="absolute inset-0 overflow-hidden opacity-[0.07]">
 				<div className="absolute -right-32 -top-32 h-[600px] w-[600px] rounded-full bg-accent" />
 				<div className="absolute -bottom-48 -left-48 h-[700px] w-[700px] rounded-full bg-secondary" />
